@@ -20,7 +20,7 @@ body, html {
   .navigation {
     width: 100%;
     list-style: none;
-    margin: 32px;
+    margin: 35px;
     display: flex;
     justify-content: left;
   }
