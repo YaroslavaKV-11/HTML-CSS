@@ -20,7 +20,7 @@ body, html {
   .navigation {
     width: 100%;
     list-style: none;
-    margin: 40px;
+    margin: 16px;
     display: flex;
     justify-content: left;
   }
@@ -33,6 +33,8 @@ body, html {
 
   .nav-item {
     margin-left: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: white;
     list-style: none;
   }
