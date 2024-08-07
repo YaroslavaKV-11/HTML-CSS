@@ -1,13 +1,14 @@
 * {
     box-sizing: border-box;
 }
+
 body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-  }
+}
 
-  .header {
+.header {
     background-color: darkturquoise;
     height: 40px;
     width: 100%;
@@ -15,74 +16,78 @@ body, html {
     top: 0;
     display: flex;
     align-items: center;
-  }
+    z-index: 10; /* Обеспечивает, что хедер всегда будет над другим контентом */
+}
 
-  .navigation {
+.navigation {
     width: 100%;
     list-style: none;
-    margin: 40px;
+    margin: 16px;
     display: flex;
     justify-content: left;
-  }
+}
 
-  .nav-list {
+.nav-list {
     padding: 0;
     margin: 0;
     display: flex;
-  }
+}
 
-  .nav-item {
+.nav-item {
     margin-left: 16px;
-    padding-top: 13px;
-    padding-bottom: 13px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     color: white;
     list-style: none;
-  }
+}
 
-  .content {
+.content {
     height: 5000px;
     background-color: beige;
     padding-top: 50px;
-  }
+}
 
-  .head {
-    position: absolute;
-    top: 50%; 
+.head {
+    position: relative; /* Используем relative для естественного размещения */
+    top: 200px; /* Смещение вниз для начального расположения */
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
     width: 200px;
     height: 200px;
     background-color: aquamarine;
-  }
+    z-index: 1; /* Обеспечивает, что медведь будет под хедером */
+}
 
-  .eye {
+.eye {
     position: absolute;
     background-color: gray;
     width: 30px;
     height: 30px;
     top: 80px;
     border-radius: 50%;
-  }
+}
 
-  .eye_right { 
+.eye_right { 
     right: 40px; 
-    }
-  .eye_left { 
-    left: 40px; 
-    }
+}
 
-  .ear {
+.eye_left { 
+    left: 40px; 
+}
+
+.ear {
     position: absolute;
     background-color: brown;
     width: 40px;
     height: 60px;
-  }
+}
 
-  .ear_right {  
+.ear_right {  
     top: -60px;
     right: -40px; 
-    }
-  .ear_left { 
+}
+
+.ear_left { 
     top: -60px; 
     left: -40px; 
-    }
+}
