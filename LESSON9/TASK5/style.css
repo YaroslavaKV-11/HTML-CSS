@@ -16,7 +16,7 @@ body, html {
     top: 0;
     display: flex;
     align-items: center;
-    z-index: 10; /* Обеспечивает, что хедер всегда будет над другим контентом */
+    z-index: 10; 
 }
 
 .navigation {
@@ -48,14 +48,14 @@ body, html {
 }
 
 .head {
-    position: relative; /* Используем relative для естественного размещения */
-    top: 200px; /* Смещение вниз для начального расположения */
+    position: relative; 
+    top: 200px; 
     left: 50%;
     transform: translateX(-50%);
     width: 200px;
     height: 200px;
     background-color: aquamarine;
-    z-index: 1; /* Обеспечивает, что медведь будет под хедером */
+    z-index: 1; 
 }
 
 .eye {
