@@ -20,10 +20,9 @@ body, html {
   .navigation {
     width: 100%;
     list-style: none;
-    margin: 0;
-    padding: 0;
+    margin: 16px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
   }
 
   .nav-list {
@@ -33,7 +32,7 @@ body, html {
   }
 
   .nav-item {
-    margin: 0 16px;
+    margin-left: 16px;
     color: white;
     list-style: none;
   }
@@ -77,11 +76,11 @@ body, html {
     height: 60px;
   }
 
-  .ear_right { 
-    top: 10px; 
-    right: -20px; 
+  .ear_right {  
+    top: -60px;
+    right: -40px; 
     }
   .ear_left { 
-    top: 10px; 
-    left: -20px; 
+    top: -60px; 
+    left: -40px; 
     }
