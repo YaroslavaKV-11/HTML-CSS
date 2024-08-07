@@ -34,9 +34,11 @@ body, html {
 
 .nav-item {
     margin-left: 16px;
-    padding: 12px 0;
     color: white;
     list-style: none;
+    display: flex;
+    align-items: center; 
+    line-height: 40px; 
 }
 
 .content {
