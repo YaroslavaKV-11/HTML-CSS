@@ -1,43 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Document</title>
-     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-      integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
-      crossorigin="anonymous"
-    />
-    <style>
-      div {
-        display: flex;
-        margin: 16px;
-        display: inline-block;
-      }
-      .text {
-        position: relative;
-        text-decoration: 1px dotted black;
-      }
-      .text:hover .tooltip {
-        display: block;
-      }
-      .tooltip {
-        display: none;
-        position: absolute;
-        bottom: -40px;
-        background-color: grey;
-        color: white;
-        border-radius: 4px;
-        padding: 8px;
-      }
-    </style>
-  </head>
-
-  <body>
-    <div class="text">
-      Hover over me
-      <span class="tooltip">I'm a tooltip</span>
-    </div>
-  </body>
-</html>
+* {
+    box-sizing: border-box;
+}
+.dropdown {
+    margin: 16px;
+}
+.dropdown:hover .menu-list {
+    display: block;
+}
+.menu-button {
+    display: inline-block;
+    position: relative;
+    padding: 16px;
+    background-color: darkgreen;
+    opacity: 0.8;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+.menu-button:hover {
+    opacity: 1;
+}
+.menu-list {
+    display: none;
+    position: absolute;
+    top: 66px;
+    padding: 0;
+    margin: 0;
+    background-color: lightcyan;
+    color: black;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    min-width: 120px;
+    z-index: 1;
+}
+.menu-item {
+    padding: 16px;
+    list-style-type: none;
+}
+.menu-item:hover {
+    background-color: ghostwhite;
+}
