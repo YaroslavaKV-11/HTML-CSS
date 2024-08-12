@@ -20,7 +20,12 @@
       input, textarea, select, button {
         margin: 4px 8px;
       }
-
+      .languages {
+        margin-right: 0;
+      }
+      .op {
+        margin-left: 0;
+      }
     </style>
   </head>
 
@@ -62,17 +67,17 @@
       <div class="form-input">
         <input type="password" name="password" value="secret">
       </div>
-      <div class="languages">
+      <div class="form-input">
         <label for="language-html">
-          <input type="radio" id="language-html" name="language" value="html">
+          <input type="radio" class="languages" id="language-html" name="language" value="html">
           HTML
         </label>
         <label for="language-css">
-          <input type="radio" id="language-css" name="language" value="css" checked>
+          <input type="radio" class="languages op" id="language-css" name="language" value="css" checked>
           CSS
         </label>
         <label for="language-js">
-          <input type="radio" id="language-js" name="language" value="javascript">
+          <input type="radio" class="languages op" id="language-js" name="language" value="javascript">
           JavaScript
         </label>
       </div>
