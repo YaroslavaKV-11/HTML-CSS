@@ -16,11 +16,10 @@
   .fa-battery-empty {
     font-size: 256px;
   }
-  body {
+  .icon-container {
     display: flex;
-    flex-direction: row;
-  }
-  .fa {
-    margin: 2px 25px;
-    text-align: space-around;
+    justify-content: space-around;
+    width: 50%;
+    margin: 0;
+    padding: 0;
   }
