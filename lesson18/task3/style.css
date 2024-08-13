@@ -1,25 +1,24 @@
 * {
-    box-sizing: border-box;
-  }
-  .fa-battery-full {
-    font-size: 16px;
-  }
-  .fa-battery-three-quarters {
-    font-size: 32px;
-  }
-  .fa-battery-half {
-    font-size: 64px;
-  }
-  .fa-battery-quarter {
-    font-size: 128px;
-  }
-  .fa-battery-empty {
-    font-size: 256px;
-  }
-  .icon-container {
-    display: flex;
-    justify-content: space-around;
-    width: 60%;
-    margin: 0;
-    padding: 0;
-  }
+  box-sizing: border-box;
+}
+.fa-battery-full {
+  font-size: 16px;
+}
+.fa-battery-three-quarters {
+  font-size: 32px;
+}
+.fa-battery-half {
+  font-size: 64px;
+}
+.fa-battery-quarter {
+  font-size: 128px;
+}
+.fa-battery-empty {
+  font-size: 256px;
+}
+body {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
