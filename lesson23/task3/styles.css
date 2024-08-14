@@ -27,6 +27,7 @@ html {
   padding-right: 8px;
   height: 100%;
   position: relative;
+  color: #fff;
 }
 .menu__item:hover {
   background-color: #9acd32;
@@ -52,8 +53,7 @@ html {
 }
 .submenu__item {
   list-style-type: none;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding: 10px 8px;
 }
 .submenu__item:hover {
   color: black;
