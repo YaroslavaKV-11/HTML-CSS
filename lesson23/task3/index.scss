@@ -24,6 +24,7 @@ html {
     padding-right: 8px;
     height: 100%;
     position: relative;
+    color: #fff;
 
     &:hover {
       background-color: #9acd32;
@@ -54,8 +55,7 @@ html {
 
   &__item {
     list-style-type: none;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 10px 8px;
 
     &:hover {
       color: black;
