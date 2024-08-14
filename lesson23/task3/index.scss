@@ -9,6 +9,7 @@ html {
   font-size: 16px;
 }
 .menu {
+  padding: 0;
   margin: 0 3em;
   text-transform: uppercase;
   cursor: pointer;
@@ -55,7 +56,7 @@ html {
 
   &__item {
     list-style-type: none;
-    padding: 10px 8px;
+    padding: 16px 8px;
 
     &:hover {
       color: black;
