@@ -54,7 +54,7 @@ html {
 }
 .submenu__item {
   list-style-type: none;
-  padding: 15px 8px;
+  padding: 14px 8px;
 }
 .submenu__item:hover {
   color: black;
